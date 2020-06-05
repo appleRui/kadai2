@@ -59,6 +59,7 @@ header .container {
     height: 650px;
     background: url(img/img/mv.png) no-repeat;
     background-size: cover;
+    background-position: center;
     text-align: center;
     padding-top: 200px;
 }
