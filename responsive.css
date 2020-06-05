@@ -6,31 +6,33 @@
     header .container {
         margin: 0 5%;
         width: 90%;
-/*        padding: 0 5%;*/
     }
 
-    header .lg {
+    .lg {
         height: 50px;
     }
 
-    header .hd-right {
+    .hd-right {
         display: none;
     }
-    .menu{
+
+    .menu {
         margin: 5px 0;
         margin-right: 5%;
         width: 40px;
         height: 40px;
         border: 1px solid #fafafa;
     }
-    .menu-bar{
+
+    .menu-bar {
         display: block;
         width: 25px;
         height: 2px;
         margin: 5px auto;
         border: 1px solid #fafafa;
     }
-    .menu-bar:first-child{
+
+    .menu-bar:first-child {
         margin-top: 10px;
     }
 
@@ -40,207 +42,151 @@
         background-size: cover;
     }
 
-    .mv .mv-ttl {
+    .mv-ttl {
         margin-bottom: 10px;
         font-size: 40px;
         font-weight: bold;
     }
 
-    .mv .mv-txt {
+    .mv-txt {
         font-size: 18px;
     }
 
-    .portfolio {}
-
-    .portfolio .pf-inner {
+    .pf-inner {
         margin: 0 5%;
         width: 90%;
     }
 
-    .portfolio .pf-txt-area {}
-
-    .portfolio .pf-ttl {
+    .pf-ttl {
         font-size: 32px;
         font-weight: bold;
     }
 
-    .portfolio .pf-txt {
+    .pf-txt {
         font-size: 16px;
     }
 
-    .portfolio .pf-boxs {
+    .pf-boxs {
         justify-content: center;
     }
 
-    .portfolio .box1 {
+    .box1 {
         display: none;
     }
 
-    .portfolio .box2 {
+    .box2 {
         margin-right: 0px;
-
     }
 
-    .portfolio .box3 {
+    .box3 {
         display: none;
     }
 
-    .portfolio .box4 {
+    .box4 {
         margin-right: 0px;
-
+        margin-bottom: 10px;
     }
 
-    .portfolio .box5 {
+    .box5 {
         display: none;
     }
-
-    .portfolio .box6 {}
 
     .feature {
         width: 90%;
         margin: 0 5%;
     }
 
-    .feature .ft-txt-area {}
-
-    .feature .ft-ttl {
+    .ft-ttl {
         font-size: 32px;
         font-weight: bold;
     }
 
-    .feature .ft-txt {
+    .ft-txt {
         font-size: 16px;
     }
 
-    .feature .ft-boxs {}
-
-    .feature .ft-box {
+    .ft-box {
         display: block;
         margin: 0px auto;
         margin-bottom: 10px;
     }
 
-    .feature .ft-box:last-child {
+    .ft-box:last-child {
         margin-bottom: 0px;
+        margin: 0 auto;
     }
 
     .fas {
         font-size: 60px;
     }
 
-    .ft-box-ttl {}
-
-    .feature .ft-box-txt {}
-
-    .profile {}
-
     .profile .container {
         width: 90%;
         margin: 0 5%;
     }
 
-    .profile .prof-txt-area {}
-
-    .profile .prof-ttl {
+    .prof-ttl {
         font-weight: bold;
     }
 
-    .profile .prof-txt {}
-
-    .profile br {}
-
-    .profile .test {
+    .prof-inner {
         display: block;
     }
 
-    .profile .prof-left {
+    .prof-left {
         width: auto;
     }
 
-    .profile .prof-img {
+    .prof-img {
         margin: 0 auto;
         margin-bottom: 20px;
     }
 
-    .profile .prof-right {
+    .prof-right {
         width: auto;
         text-align: center;
     }
 
-    .profile .prof-name {}
-
-    .profile .prof-name h2 {}
-
-    .profile .prof-name p {}
-
-    .profile .prof-skills {}
-
-    .profile .prof-skills h2 {
+    .prof-skills h2 {
         font-weight: bold;
     }
-
-    .profile .prof-skills p {}
 
     .contact {
         width: 90%;
         margin: 0 5%;
     }
 
-    .contact .con-txt-area {}
-
-    .contact .con-txt-area h2 {
+    .con-txt-area h2 {
         font-weight: bold;
     }
 
-    .contact .con-txt-area p {}
-
-    .contact br {}
-
-    .contact .con-inner {
+    .con-inner {
         width: auto;
         flex-direction: column;
         text-align: center;
     }
 
-    .contact .con-address {
+    .con-address {
         width: auto;
     }
-
-    .contact .con-addres {}
-
-    .contact .con-mail {}
-
-    .contact .con-mail h2 {}
-
-    .contact .con-mail a {}
-
-    .contact .con-mail p {}
 
     .contact .tel {
         margin-bottom: 20px;
     }
 
-    .contact .tel h2 {}
-
-    .contact .tel a {}
-
-    .contact .tel p {}
-
-    .contact .con-sns {
+    .con-sns {
         width: auto;
     }
 
-    .contact .con-sns-content {
+    .con-sns-content {
         width: auto;
     }
 
-    .contact .con-sns-content h2 {}
-
-    .contact .con-sns-content .fab {
+    .fab {
         margin-right: 8px;
     }
 
-    .contact .con-sns-content .fab:first-child {
+    .fab:first-child {
         margin-right: 0px;
 
     }

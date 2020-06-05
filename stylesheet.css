@@ -23,34 +23,33 @@ header .container {
     display: flex;
 }
 
-header .hd-left {
+.hd-left {
     margin-right: auto;
 }
 
-header .hd-left a {}
+.hd-left a {}
 
-header .lg {
+.lg {
     height: 70px;
     vertical-align: bottom;
     /*imgタグはデフォルトでbaselineのためaタグが下になってしまう。*/
     /*防止としてvertical-align : bottomにする*/
 }
 
-header .hd-right {}
 
-header .items {
+.items {
     list-style-type: none;
     font-size: 0;
 }
 
-header .item {
+.item {
     display: inline-block;
     line-height: 70px;
     padding: 0 30px;
     font-size: 16px;
 }
 
-header .item a {
+.item a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -64,13 +63,13 @@ header .item a {
     padding-top: 200px;
 }
 
-.mv .mv-ttl {
+.mv-ttl {
     color: #fafafa;
     font-size: 64px;
     font-weight: normal;
 }
 
-.mv .mv-txt {
+.mv-txt {
     font-size: 20px;
     color: #fafafa;
 }
@@ -85,16 +84,17 @@ header .item a {
     margin: 0 auto;
 }
 
-.portfolio .pf-txt-area {
+.pf-txt-area {
     text-align: center;
 }
 
-.portfolio .pf-ttl {
+.pf-ttl {
     font-size: 32px;
     font-weight: normal;
     color: #000000;
 }
-.pf-ttl::after{
+
+.pf-ttl::after {
     margin: 8px auto 0 auto;
     display: block;
     content: "";
@@ -103,18 +103,18 @@ header .item a {
     background-color: #EC715F;
 }
 
-.portfolio .pf-txt {
+.pf-txt {
     font-size: 16px;
     margin: 30px 0;
     line-height: 1.5rem;
 }
 
-.portfolio .pf-boxs {
+.pf-boxs {
     display: flex;
     flex-wrap: wrap;
 }
 
-.portfolio .box1 {
+.box1 {
     width: 300px;
     height: 250px;
     margin-right: 10px;
@@ -124,7 +124,7 @@ header .item a {
     background-position: center;
 }
 
-.portfolio .box2 {
+.box2 {
     width: 300px;
     height: 250px;
     background: url(img/img/websuku.png) no-repeat;
@@ -134,7 +134,7 @@ header .item a {
     background-position: center;
 }
 
-.portfolio .box3 {
+.box3 {
     width: 300px;
     height: 250px;
     margin-bottom: 10px;
@@ -143,7 +143,7 @@ header .item a {
     background-position: center;
 }
 
-.portfolio .box4 {
+.box4 {
     width: 300px;
     height: 250px;
     margin-right: 10px;
@@ -152,7 +152,7 @@ header .item a {
     background-position: center;
 }
 
-.portfolio .box5 {
+.box5 {
     width: 300px;
     height: 250px;
     margin-right: 10px;
@@ -161,7 +161,7 @@ header .item a {
     background-position: center;
 }
 
-.portfolio .box6 {
+.box6 {
     width: 300px;
     height: 250px;
     background: url(img/img/webcamp-mother.png) no-repeat;
@@ -184,7 +184,8 @@ header .item a {
     font-weight: normal;
     color: #000000;
 }
-.ft-ttl::after{
+
+.ft-ttl::after {
     margin: 8px auto 0 auto;
     display: block;
     content: "";
@@ -245,11 +246,12 @@ header .item a {
     text-align: center;
 }
 
-.prof-txt-area .prof-ttl {
+.prof-ttl {
     font-size: 32px;
     font-weight: normal;
 }
-.prof-ttl::after{
+
+.prof-ttl::after {
     margin: 8px auto 0 auto;
     display: block;
     content: "";
@@ -258,13 +260,13 @@ header .item a {
     background-color: #EC715F;
 }
 
-.prof-txt-area .prof-txt {
+.prof-txt {
     margin: 30px 0;
     font-size: 16px;
     line-height: 1.5rem;
 }
 
-.test {
+.prof-inner {
     display: flex;
 }
 
@@ -299,8 +301,6 @@ header .item a {
     line-height: 1.4rem;
 }
 
-.prof-skills {}
-
 .prof-skills h2 {
     font-size: 20px;
     margin-bottom: 5px;
@@ -317,16 +317,17 @@ header .item a {
     margin: 0 auto;
 }
 
-.contact .con-txt-area {
+.con-txt-area {
     text-align: center;
 }
 
-.contact .con-txt-area h2 {
+.con-txt-area h2 {
     font-size: 32px;
     padding-bottom: 8px;
     font-weight: normal;
 }
-.con-txt-area h2::after{
+
+.con-txt-area h2::after {
     margin: 8px auto 0 auto;
     display: block;
     content: "";
@@ -335,7 +336,7 @@ header .item a {
     background-color: #EC715F;
 }
 
-.contact .con-txt-area p {
+.con-txt-area p {
     font-size: 16px;
     margin: 30px 0;
     line-height: 1.5rem;
@@ -345,7 +346,7 @@ header .item a {
     display: flex;
 }
 
-.contact .con-address {
+.con-address {
     width: 400px;
 }
 
@@ -354,28 +355,22 @@ header .item a {
     width: 125px;
 }
 
-.contact .con-mail {
+.con-mail {
     margin-bottom: 20px;
 }
 
-.contact .con-mail h2 {
+.con-mail h2 {
     font-size: 20px;
     margin-bottom: 5px;
 }
 
-.contact .con-mail p {}
-
-.contact .tel {}
-
-.contact .tel h2 {
+.tel h2 {
     margin-bottom: 5px;
     font-size: 20px;
     line-height: 1.4rem;
 }
 
-.contact .tel p {}
-
-.contact .con-sns {
+.con-sns {
     width: 400px;
 }
 
@@ -384,19 +379,19 @@ header .item a {
     width: 180px;
 }
 
-.contact .con-sns h2 {
+.con-sns h2 {
     font-size: 20px;
     margin-bottom: 5px;
     line-height: 1.4rem;
 }
 
-.contact .con-sns .fab {
+.con-sns .fab {
     font-size: 50px;
     margin-right: 20px;
     text-decoration: none;
 }
 
-.contact .con-sns .fab:last-child {
+.fab:last-child {
     margin-right: 0px;
 }
 
