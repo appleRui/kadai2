@@ -115,7 +115,8 @@
     .feature .ft-boxs {}
 
     .feature .ft-box {
-        margin-right: 0px;
+        display: block;
+        margin: 0px auto;
         margin-bottom: 10px;
     }
 
