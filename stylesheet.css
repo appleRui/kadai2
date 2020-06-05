@@ -1,0 +1,413 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+    line-height: 1;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background: #EC715F;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+header .container {
+    display: flex;
+}
+
+header .hd-left {
+    margin-right: auto;
+}
+
+header .hd-left a {}
+
+header .lg {
+    height: 70px;
+    vertical-align: bottom;
+    /*imgタグはデフォルトでbaselineのためaタグが下になってしまう。*/
+    /*防止としてvertical-align : bottomにする*/
+}
+
+header .hd-right {}
+
+header .items {
+    list-style-type: none;
+    font-size: 0;
+}
+
+header .item {
+    display: inline-block;
+    line-height: 70px;
+    padding: 0 30px;
+    font-size: 16px;
+}
+
+header .item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mv {
+    width: 100%;
+    height: 650px;
+    background: url(img/img/mv.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.mv .mv-ttl {
+    color: #fafafa;
+    font-size: 64px;
+    font-weight: normal;
+}
+
+.mv .mv-txt {
+    font-size: 20px;
+    color: #fafafa;
+}
+
+.portfolio {
+    padding: 90px 0;
+    background: #eceff1;
+}
+
+.pf-inner {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.portfolio .pf-txt-area {
+    text-align: center;
+}
+
+.portfolio .pf-ttl {
+    font-size: 32px;
+    font-weight: normal;
+    color: #000000;
+}
+.pf-ttl::after{
+    margin: 8px auto 0 auto;
+    display: block;
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: #EC715F;
+}
+
+.portfolio .pf-txt {
+    font-size: 16px;
+    margin: 30px 0;
+    line-height: 1.5rem;
+}
+
+.portfolio .pf-boxs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio .box1 {
+    width: 300px;
+    height: 250px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: url(img/img/sketch.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .box2 {
+    width: 300px;
+    height: 250px;
+    background: url(img/img/websuku.png) no-repeat;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .box3 {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+    background: url(img/img/write.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .box4 {
+    width: 300px;
+    height: 250px;
+    margin-right: 10px;
+    background: url(img/img/webcamp.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .box5 {
+    width: 300px;
+    height: 250px;
+    margin-right: 10px;
+    background: url(img/img/talk.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .box6 {
+    width: 300px;
+    height: 250px;
+    background: url(img/img/webcamp-mother.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.feature {
+    width: 980px;
+    padding: 90px 0;
+    margin: 0 auto;
+}
+
+.ft-txt-area {
+    text-align: center;
+}
+
+.ft-ttl {
+    font-size: 32px;
+    font-weight: normal;
+    color: #000000;
+}
+.ft-ttl::after{
+    margin: 8px auto 0 auto;
+    display: block;
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: #EC715F;
+}
+
+.ft-txt {
+    font-size: 16px;
+    color: #000000;
+    margin: 30px 0;
+    line-height: 1.5rem;
+}
+
+.ft-boxs {
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 0;
+}
+
+.ft-box {
+    display: inline-block;
+    margin-right: 10px;
+    width: 320px;
+    padding: 0;
+}
+
+.ft-box:last-child {
+    margin-right: 0;
+}
+
+.fas {
+    font-size: 60px;
+}
+
+.ft-box-ttl {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+.ft-box-txt {
+    font-size: 16px;
+    text-align: start;
+    line-height: 1.4rem;
+}
+
+.profile {
+    background: #eceff1;
+}
+
+.profile .container {
+    padding: 90px 0;
+}
+
+.prof-txt-area {
+    text-align: center;
+}
+
+.prof-txt-area .prof-ttl {
+    font-size: 32px;
+    font-weight: normal;
+}
+.prof-ttl::after{
+    margin: 8px auto 0 auto;
+    display: block;
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: #EC715F;
+}
+
+.prof-txt-area .prof-txt {
+    margin: 30px 0;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.test {
+    display: flex;
+}
+
+.prof-left {
+    width: 512px;
+}
+
+.prof-img {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: url(img/img/my-icon.jpg) no-repeat;
+    background-position: center;
+}
+
+.prof-right {
+    width: 512px;
+}
+
+.prof-name {
+    margin-bottom: 20px;
+}
+
+.prof-name h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.prof-name p {
+    font-size: 16px;
+    line-height: 1.4rem;
+}
+
+.prof-skills {}
+
+.prof-skills h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.prof-skills p {
+    font-size: 16px;
+    line-height: 1.4rem;
+}
+
+.contact {
+    width: 800px;
+    padding: 90px 0;
+    margin: 0 auto;
+}
+
+.contact .con-txt-area {
+    text-align: center;
+}
+
+.contact .con-txt-area h2 {
+    font-size: 32px;
+    padding-bottom: 8px;
+    font-weight: normal;
+}
+.con-txt-area h2::after{
+    margin: 8px auto 0 auto;
+    display: block;
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: #EC715F;
+}
+
+.contact .con-txt-area p {
+    font-size: 16px;
+    margin: 30px 0;
+    line-height: 1.5rem;
+}
+
+.con-inner {
+    display: flex;
+}
+
+.contact .con-address {
+    width: 400px;
+}
+
+.con-addres {
+    margin: 0 auto;
+    width: 125px;
+}
+
+.contact .con-mail {
+    margin-bottom: 20px;
+}
+
+.contact .con-mail h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.contact .con-mail p {}
+
+.contact .tel {}
+
+.contact .tel h2 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 1.4rem;
+}
+
+.contact .tel p {}
+
+.contact .con-sns {
+    width: 400px;
+}
+
+.con-sns-content {
+    margin: 0 auto;
+    width: 180px;
+}
+
+.contact .con-sns h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    line-height: 1.4rem;
+}
+
+.contact .con-sns .fab {
+    font-size: 50px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.contact .con-sns .fab:last-child {
+    margin-right: 0px;
+}
+
+footer {
+    height: 60px;
+    text-align: center;
+    background: #ec715f;
+}
+
+footer p {
+    line-height: 60px;
+    font-size: 16px;
+    color: #fafafa;
+}
